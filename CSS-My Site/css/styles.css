@@ -1,0 +1,18 @@
+body{
+
+  margin: 0;
+}
+
+h1{
+  margin-top: 0;
+}
+
+.top {
+  background-color: #ffe8e8;
+}
+.middle {
+  background-color: #ffdcdc;
+}
+.bottom {
+  background-color: #fcd1d1;
+}
