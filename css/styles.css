@@ -42,13 +42,10 @@ p{
 .top {
 
   background-color: #ffe8e8;
-  position:relative;;
+  position:relative;
   padding-top: 100px;
 }
-.middle {
-}
-.bottom {
-}
+
 
 .write {
   width: 100px;
