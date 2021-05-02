@@ -1,38 +1,54 @@
 body {
   font-family:  'Montserrat', sans-serif;
+  text-align: center;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
 
-h1 {
+
+h1 , h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
-
+  color:white;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+.section-heading {
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-weight: 600;
-  font-size: 1.5rem;
+/* Sections */
+.color-section {
+  color:white;
+  background-color: #ff4c68;
 }
 
-p {
-  color: #8f8f8f;
+.white-section{
+  background-color: white;
+}
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Navigation Bar */
@@ -66,18 +82,24 @@ p {
   width: 60%;
   transform: rotate(25deg);
   margin-left: 50px;
+  position: absolute;
+
 }
 
 
 /* Features */
 
 #features {
-  padding: 7%
+
+  position: relative;
+
 }
 
-.features {
-  text-align: center;
 
+
+.feature-title {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .ft-icon {
@@ -92,14 +114,19 @@ p {
 
 /* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: white;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
+
+
+
 
 .t-img {
   width: 10%;
@@ -110,7 +137,6 @@ p {
 /* Press */
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding: 3%;
 }
 
@@ -122,8 +148,41 @@ p {
 /* Pricing */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 .p-col {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA */
+#cta {
+  padding: 10% 25%;
+}
+
+.cta-btn {
+  margin: 7% 3%;
+}
+
+/* Footer  */
+#footer {
+}
+
+.f-icon {
+  margin: 5% 1%;
 }
